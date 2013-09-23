@@ -1,0 +1,34 @@
+require 'csv'
+
+module Friendly
+  class MIME
+    VERSION = '1.0.0'
+
+    class << self
+      attr_accessor :mimes
+
+      # Loads all mime names and extensions to a memory
+      #
+      def load
+        self.mimes = {}
+        CSV.foreach("mimes.csv", :headers => false) do |row|
+          self.mimes[row[0]] = row[1]
+          self.mimes[row[2]] = row[1]
+        end
+      end
+
+      # Finds MIME friendly name by extension or MIME type
+      #
+      # @example
+      #   Friendly::MIME.find 'application/zip'
+      #
+      #   or
+      #
+      #   Friendly::MIME.find '.zip'
+      #
+      def find(mime)
+        self.mimes[mime]
+      end
+    end
+  end
+end

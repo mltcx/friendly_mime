@@ -1,6 +1,16 @@
-= friendly_mime
+= Friendly MIME
 
-Description goes here.
+Friendly::MIME provides possibility to show friendly description of a document by the given MIME type
+
+```ruby
+    > Friendly::MIME.load
+
+    > Friendly::MIME.find 'application/zip'
+    => "Zip Archive"
+
+    > Friendly::MIME.find '.zip'
+    => "Zip Archive"
+```
 
 == Contributing to friendly_mime
  
