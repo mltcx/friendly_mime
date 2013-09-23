@@ -2,7 +2,7 @@ require 'csv'
 
 module Friendly
   class MIME
-    VERSION = '1.0.0'
+    VERSION = '1.0.1'
 
     class << self
       attr_accessor :mimes
@@ -27,7 +27,8 @@ module Friendly
       #   Friendly::MIME.find '.zip'
       #
       def find(mime)
-        self.mimes[mime]
+        return nil if mime.nil?
+        self.mimes[mime.to_s.downcase]
       end
     end
   end
