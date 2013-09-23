@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "friendly_mime.gemspec",
     "lib/friendly_mime.rb",
     "mimes.csv",
     "test/helper.rb",
