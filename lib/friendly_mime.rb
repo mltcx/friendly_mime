@@ -11,7 +11,7 @@ module Friendly
       #
       def load
         self.mimes = {}
-        CSV.foreach("mimes.csv", :headers => false) do |row|
+        CSV.foreach(File.expand_path(File.join(File.dirname(__FILE__), '..', 'mimes.csv')), :headers => false) do |row|
           self.mimes[row[0]] = row[1]
           self.mimes[row[2]] = row[1]
         end
