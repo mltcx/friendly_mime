@@ -1,16 +1,20 @@
 = Friendly MIME
 
-Friendly::MIME provides possibility to show friendly description of a document by the given MIME type
+Friendly::MIME provides possibility to show friendly description of a document by the given MIME type.
 
-```ruby
-    > Friendly::MIME.load
+Add friendly_mime to your rails initializer:
+
+    # initializers/friendly_mime.rb
+    require 'friendly_mime'
+    Friendly::MIME.load
+
+And now you can find by content type or file extension:
 
     > Friendly::MIME.find 'application/zip'
     => "Zip Archive"
 
     > Friendly::MIME.find '.zip'
     => "Zip Archive"
-```
 
 == Contributing to friendly_mime
  
