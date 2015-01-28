@@ -83,7 +83,7 @@ application/vnd.cluetrust.cartomobile-config,ClueTrust CartoMobile - Config,.c11
 application/vnd.cluetrust.cartomobile-config-pkg,ClueTrust CartoMobile - Config Package,.c11amz
 image/x-cmu-raster,CMU Image,.ras
 model/vnd.collada+xml,COLLADA,.dae
-text/csv,Comma-Seperated Values,.csv
+text/csv,Comma-Separated Values,.csv
 application/mac-compactpro,Compact Pro,.cpt
 application/vnd.wap.wmlc,Compiled Wireless Markup Language (WMLC),.wmlc
 image/cgm,Computer Graphics Metafile,.cgm
@@ -602,7 +602,7 @@ application/vnd.syncml.dm+xml,SyncML - Device Management,.xdm
 application/x-sv4cpio,System V Release 4 CPIO Archive,.sv4cpio
 application/x-sv4crc,System V Release 4 CPIO Checksum Data,.sv4crc
 application/sbml+xml,Systems Biology Markup Language,.sbml
-text/tab-separated-values,Tab Seperated Values,.tsv
+text/tab-separated-values,Tab Separated Values,.tsv
 image/tiff,Tagged Image File Format,.tiff
 application/vnd.tao.intent-module-archive,Tao Intent,.tao
 application/x-tar,Tar File (Tape Archive),.tar
