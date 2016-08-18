@@ -74,7 +74,7 @@ image/vnd.dxf,AutoCAD DXF,.dxf
 model/vnd.dwf,Autodesk Design Web Format (DWF),.dwf
 text/plain-bas,BAS Partitur Format,.par
 application/x-bcpio,Binary CPIO Archive,.bcpio
-application/octet-stream,Binary Data,.bin
+application/octet-stream,File,.bin
 image/bmp,Bitmap Image File,.bmp
 application/x-bittorrent,BitTorrent,.torrent
 application/vnd.rim.cod,Blackberry COD File,.cod
