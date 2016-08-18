@@ -1,3 +1,25 @@
+audio/mp3,MP3 Audio,.mp3
+audio/x-mp3,MP3 Audio,.mp3
+audio/m4a,MPEG-4 Audio,.mp4
+audio/m4a,MPEG-4 Audio,.m4a
+audio/x-m4a,MPEG-4 Audio,.m4a
+audio/mp4,MPEG-4 Audio,.mp4a
+video/mp4,MPEG-4 Video,.mp4
+video/x-mp4,MPEG-4 Video,.mp4
+application/mp4,MPEG4,.mp4
+application/x-mp4,MPEG4,.mp4
+audio/wav,Waveform Audio File Format (WAV),.wav
+audio/x-wav,Waveform Audio File Format (WAV),.wav
+audio/ogg,Ogg Audio,.ogg
+audio/ogg,Ogg Audio,.oga
+audio/x-ogg,Ogg Audio,.oga
+video/ogg,Ogg Video,.ogv
+video/x-ogg,Ogg Video,.ogv
+audio/webm,Open Web Media Project - Audio,.webm
+audio/webm,Open Web Media Project - Audio,.weba
+audio/x-webm,Open Web Media Project - Audio,.weba
+video/webm,Open Web Media Project - Video,.webm
+video/x-webm,Open Web Media Project - Video,.webm
 application/vnd.hzn-3d-crossword,3D Crossword Plugin,.x3d
 video/3gpp,3GP,.3gp
 video/3gpp2,3GP2,.3g2
@@ -160,6 +182,7 @@ image/vnd.fastbidsheet,FastBid Sheet,.fbs
 application/vnd.denovo.fcselayout-link,FCS Express Layout Link,.fe_launch
 video/x-f4v,Flash Video,.f4v
 video/x-flv,Flash Video,.flv
+video/flv,Flash Video,.flv
 image/vnd.fpx,FlashPix,.fpx
 image/vnd.net-fpx,FlashPix,.npx
 text/vnd.fmi.flexstor,FLEXSTOR,.flx
@@ -266,6 +289,8 @@ application/vnd.joost.joda-archive,Joda Archive,.joda
 video/jpm,JPEG 2000 Compound Image File Format,.jpm
 image/jpeg,JPEG Image,.jpeg
 image/jpeg,JPEG Image,.jpg
+image/x-jpeg,JPEG Image,.jpg
+image/jpg,JPEG Image,.jpg
 video/jpeg,JPGVideo,.jpgv
 application/vnd.kahootz,Kahootz,.ktz
 application/vnd.chipnuts.karaoke-mmd,Karaoke on Chipnuts Chipsets,.mmd
@@ -405,9 +430,6 @@ audio/mpeg,MPEG Audio,.mpga
 video/vnd.mpegurl,MPEG Url,.mxu
 video/mpeg,MPEG Video,.mpeg
 application/mp21,MPEG-21,.m21
-audio/mp4,MPEG-4 Audio,.mp4a
-video/mp4,MPEG-4 Video,.mp4
-application/mp4,MPEG4,.mp4
 application/vnd.apple.mpegurl,Multimedia Playlist Unicode,.m3u8
 application/vnd.musician,MUsical Score Interpreted Code Invented for the ASCII designation of Notation,.mus
 application/vnd.muvee.style,Muvee Automatic Video Editing,.msty
@@ -433,16 +455,12 @@ audio/vnd.nuera.ecelp7470,Nuera ECELP 7470,.ecelp7470
 audio/vnd.nuera.ecelp9600,Nuera ECELP 9600,.ecelp9600
 application/oda,Office Document Architecture,.oda
 application/ogg,Ogg,.ogx
-audio/ogg,Ogg Audio,.oga
-video/ogg,Ogg Video,.ogv
 application/vnd.oma.dd2+xml,OMA Download Agents,.dd2
 application/vnd.oasis.opendocument.text-web,Open Document Text Web,.oth
 application/oebps-package+xml,Open eBook Publication Structure,.opf
 application/vnd.intu.qbo,Open Financial Exchange,.qbo
 application/vnd.openofficeorg.extension,Open Office Extension,.oxt
 application/vnd.yamaha.openscoreformat,Open Score Format,.osf
-audio/webm,Open Web Media Project - Audio,.weba
-video/webm,Open Web Media Project - Video,.webm
 application/vnd.oasis.opendocument.chart,OpenDocument Chart,.odc
 application/vnd.oasis.opendocument.chart-template,OpenDocument Chart Template,.otc
 application/vnd.oasis.opendocument.database,OpenDocument Database,.odb
@@ -644,7 +662,6 @@ application/voicexml+xml,VoiceXML,.vxml
 application/x-wais-source,WAIS Source,.src
 application/vnd.wap.wbxml,WAP Binary XML (WBXML),.wbxml
 image/vnd.wap.wbmp,WAP Bitamp (WBMP),.wbmp
-audio/x-wav,Waveform Audio File Format (WAV),.wav
 application/davmount+xml,Web Distributed Authoring and Versioning,.davmount
 application/x-font-woff,Web Open Font Format,.woff
 application/wspolicy+xml,Web Services Policy,.wspolicy
@@ -681,5 +698,6 @@ application/yang,YANG Data Modeling Language,.yang
 application/yin+xml,YIN (YANG - XML),.yin
 application/vnd.zul,Z.U.L. Geometry,.zir
 application/zip,Zip Archive,.zip
+application/x-zip,Zip Archive,.zip
 application/vnd.handheld-entertainment+xml,ZVUE Media Manager,.zmm
 application/vnd.zzazz.deck+xml,Zzazz Deck,.zaz
