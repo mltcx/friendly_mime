@@ -541,6 +541,7 @@ application/vnd.epson.quickanime,QuickAnime Player,.qam
 application/vnd.intu.qfx,Quicken,.qfx
 video/quicktime,Quicktime Video,.qt
 application/x-rar-compressed,RAR Archive,.rar
+application/x-rar,RAR Archive,.rar
 audio/x-pn-realaudio,Real Audio Sound,.ram
 audio/x-pn-realaudio-plugin,Real Audio Sound,.rmp
 application/rsd+xml,Really Simple Discovery,.rsd
