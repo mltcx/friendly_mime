@@ -704,5 +704,6 @@ application/yin+xml,YIN (YANG - XML),.yin
 application/vnd.zul,Z.U.L. Geometry,.zir
 application/zip,Zip Archive,.zip
 application/x-zip,Zip Archive,.zip
+application/x-zip-compressed,Zip Archive,.zip
 application/vnd.handheld-entertainment+xml,ZVUE Media Manager,.zmm
 application/vnd.zzazz.deck+xml,Zzazz Deck,.zaz
