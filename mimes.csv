@@ -16,6 +16,8 @@ audio/oga,Ogg Audio,.oga
 audio/x-ogg,Ogg Audio,.oga
 video/ogg,Ogg Video,.ogv
 video/x-ogg,Ogg Video,.ogv
+audio/x-flac,FLAC Audio,.flac
+audio/flac,FLAC Audio,.flac
 audio/webm,Open Web Media Project - Audio,.webm
 audio/webm,Open Web Media Project - Audio,.weba
 audio/x-webm,Open Web Media Project - Audio,.weba
