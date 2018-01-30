@@ -12,6 +12,7 @@ audio/wav,Waveform Audio File Format (WAV),.wav
 audio/x-wav,Waveform Audio File Format (WAV),.wav
 audio/ogg,Ogg Audio,.ogg
 audio/ogg,Ogg Audio,.oga
+audio/oga,Ogg Audio,.oga
 audio/x-ogg,Ogg Audio,.oga
 video/ogg,Ogg Video,.ogv
 video/x-ogg,Ogg Video,.ogv
